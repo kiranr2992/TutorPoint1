@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    max-height: 73vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(56, 34, 34, 0.7), rgba(89, 55, 28, 0.7)), url('images/codingExample-Page-bg.jpg');
+    background-position: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-links {
+    flex: 1;
+    padding-left: 470px;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    font-size: 19px;
+}
+
+.nav-links ul li a:hover {
+    font-size: 19px;
+    color: #f31616;
+}
+
+.login-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #f31616;
+    padding: 17px 42px;
+    font-size: 14px;
+    background: #f31616;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/*   ------------------ */
+
+.links2 {
+    flex: 1;
+    padding-left: 470px;
+    padding: 70px 100px;
+}
+
+.links2 ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    font-size: 19px;
+    font-family: 'Roboto Slab', serif;
+    color: #f31616;
+}
+
+.links2 ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.links2 ul li a:hover {
+    color: #f31616;
+}
+
+
+/* --------------------------------- */
+
+
+/* ------ Search ------*/
+
+.Search {
+    width: 70vh;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: rgb(175, 7, 57);
+    border: black;
+}
+
+.Search h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tapestry', cursive;
+}
+
+.box-btn {
+    border: rgb(35, 32, 32);
+    background-color: rgb(175, 7, 57);
+    width: 110vh;
+    text-align: center;
+    margin-left: -155px;
+    height: 20vh;
+}
+
+.fill-btn2 {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(60, 52, 52);
+    border: white;
+    padding: 17px 34px;
+    font-size: 12px;
+    background: white;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.search-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 17px 42px;
+    font-size: 14px;
+    background: black;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header::after {
+    content: '';
+    width: 54.5%;
+    height: 1px;
+    background: rgb(69, 65, 65);
+    display: block;
+    margin: auto;
+    margin-left: 339px;
+}
+
+.sec-card h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 160px;
+}
+
+
+/*  ---------*/
+
+.services {
+    width: 100%;
+    min-height: 50vh;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.row {
+    margin-top: -5%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-right: 20px;
+}
+
+.services-col {
+    min-width: 23%;
+    flex-basis: 25px;
+    background: white;
+    border-radius: 10px;
+    margin-right: 135px;
+    padding: 20px 35px;
+    box-sizing: border-box;
+    border: 1px;
+    border: black;
+    box-shadow: 0 0 20px 0px rgba(12, 11, 11, 0.2);
+}
+
+.row2 {
+    margin-top: -8%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-right: 20px;
+}
+
+
+/** -----Footer----  **/
+
+footer {
+    min-height: 30vh;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #8bd636;
+    color: white;
+    font-size: 18px;
+    padding: 2.2rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ftr {
+    display: flex;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.ftr a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.fticon {
+    text-align: left;
+    margin-left: 45px;
+}
+
+.fticon:hover {
+    color: #f31616;
+}
+
+.f1 {
+    color: white;
+}
+
+footer .right_side {
+    display: flex;
+}
+
+footer .right_side h5 {
+    margin: 2px 15px;
+    text-align: center;
+}
+
+footer .right_side .nav-link {
+    margin: -8px 0;
+    font-size: 15px;
+}
+
+footer .right_side .nav-link i {
+    color: var(--dark);
+}
+
+.ff1 {
+    color: black;
+}
+
+.ff1:hover {
+    color: red;
+}

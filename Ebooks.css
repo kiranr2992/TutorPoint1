@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    max-height: 73vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(1, 1, 14, 0.7), rgba(4, 4, 17, 0.7)), url('images/Ebook-bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    font-size: 19px;
+}
+
+.nav-links ul li a:hover {
+    font-size: 19px;
+    color: #f31616;
+}
+
+.login-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #f31616;
+    padding: 17px 42px;
+    font-size: 14px;
+    background: #f31616;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/*   ------------------ */
+
+.links2 {
+    flex: 1;
+    padding-left: 470px;
+    padding: 70px 100px;
+}
+
+.links2 ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    font-size: 19px;
+    font-family: 'Roboto Slab', serif;
+    color: #f31616;
+}
+
+.links2 ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.links2 ul li a:hover {
+    color: #f31616;
+}
+
+
+/* --------------------------------- */
+
+
+/* ------ Search ------*/
+
+.Search {
+    width: 50vh;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: rgb(175, 7, 57);
+    border: black;
+}
+
+.Search h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tapestry', cursive;
+}
+
+.box-btn {
+    border: rgb(35, 32, 32);
+    background-color: rgb(175, 7, 57);
+    width: 110vh;
+    text-align: center;
+    margin-left: -235px;
+    height: 20vh;
+}
+
+.fill-btn2 {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(60, 52, 52);
+    border: white;
+    padding: 17px 34px;
+    font-size: 12px;
+    background: white;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.search-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 17px 42px;
+    font-size: 14px;
+    background: black;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+}
+
+.contact {
+    width: 75vh;
+    height: 73vh;
+    margin: auto;
+    margin-left: 250px;
+    margin-top: 180px;
+    padding-top: 25px;
+    background-color: rgb(175, 7, 57);
+}
+
+.contact p {
+    color: white;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact-box {
+    width: 62vh;
+    height: 58vh;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.fill-btn3 {
+    width: 44vh;
+    display: inline-block;
+    text-decoration: none;
+    border: rgb(201, 209, 220);
+    padding: 17px 34px;
+    font-size: 12px;
+    background: rgb(201, 209, 220);
+    position: relative;
+    cursor: pointer;
+    margin-top: 55px;
+    margin-left: 32px;
+}
+
+.fill-btn4 {
+    width: 44vh;
+    display: inline-block;
+    text-decoration: none;
+    border: rgb(201, 209, 220);
+    padding: 17px 34px;
+    font-size: 12px;
+    background: rgb(201, 209, 220);
+    position: relative;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 32px;
+}
+
+.Forward {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(175, 7, 57);
+    padding: 17px 42px;
+    font-size: 14px;
+    background: rgb(175, 7, 57);
+    position: relative;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 25px;
+    margin-left: 32px;
+}
+
+.ip2 {
+    margin-left: 950px;
+    margin-top: -530px;
+}
+
+.ip2 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+
+.ip2 p {
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+}
+
+.phone {
+    margin-top: 35px;
+}
+
+.phone p {
+    color: rgb(175, 7, 57);
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.phone h1 {
+    margin-top: -10px;
+    font-size: 35px;
+    color: rgb(115, 111, 111);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.phone::after {
+    content: '';
+    width: 54.5%;
+    height: 3px;
+    background: rgb(175, 7, 57);
+    display: block;
+    margin: auto;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.ulli {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 80px;
+}
+
+
+/** -----Footer----  **/
+
+.Footer {
+    min-height: 45vh;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #8bd636;
+}
+
+.ftr {
+    display: flex;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.ftr a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.fticon {
+    text-align: left;
+    margin-left: 45px;
+}
+
+.fticon:hover {
+    color: #f31616;
+}
+
+footer {
+    min-height: 30vh;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #8bd636;
+    color: white;
+    font-size: 18px;
+    padding: 2.2rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ftr {
+    display: flex;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.ftr a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.fticon {
+    text-align: left;
+    margin-left: 45px;
+}
+
+.fticon:hover {
+    color: #f31616;
+}
+
+.f1 {
+    color: white;
+}
+
+footer .right_side {
+    display: flex;
+}
+
+footer .right_side h5 {
+    margin: 2px 15px;
+    text-align: center;
+}
+
+footer .right_side .nav-link {
+    margin: -8px 0;
+    font-size: 15px;
+}
+
+footer .right_side .nav-link i {
+    color: var(--dark);
+}
+
+.ff1 {
+    color: black;
+}
+
+.ff1:hover {
+    color: red;
+}
+
+.ff1:link {
+    text-decoration: none;
+}
+
+.ff1:visited {
+    text-decoration: none;
+}
+
+.m1 {
+    padding-left: 20px;
+    padding-top: 20px;
+}
